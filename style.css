@@ -1,0 +1,296 @@
+.separator {
+    height: 150px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin-left: 2%;
+    margin-right: 10%;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Noto Sans JP', sans-serif; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: rgb(38, 62, 196);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  font-size: 8px;
+}
+
+.logo {
+    width: 250px;
+  }
+
+.vl {
+    border-left: 0.5px solid #bfbfbf;
+    height: 0.1px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+
+/* FIRST SECTION */
+
+.first-section {
+    margin-bottom: 50px;
+}
+
+.r1-col-1 {
+    font-family: 'Lato', sans-serif;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.r1-col-1 h2 {
+    color: black; 
+    font-size: 2em;
+}
+
+.r1-col-1 h5 {
+    color: gray; 
+    font-weight: normal;
+}
+
+.r1-input-1 {
+    font-size: 60%;
+    width: 45%;
+    color: white; 
+    background-color: rgb(38, 62, 196); 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border: none;
+    border-radius: 3px;
+    box-shadow: 6px 3px #8795DD;
+}
+
+.r1-input-2 {
+    font-size: 60%;
+    width: 45%;
+    border: 1.2px solid #8795DD; 
+    background-color: white; 
+    margin-left: 2%; 
+    font-weight: bold;
+    padding: 10px; 
+}
+
+.r1-col-1 i {
+    color: black; 
+    margin-right: 12px;
+}
+
+.r1-col-2 {
+    float: right;
+    width: 62%;
+    height: 30%;
+    margin-top: 50px;
+}
+
+.r1-col-2 img {
+    width: 100%; 
+}
+
+/* SECOND SECTION */
+
+.second-section {
+    height: 30%;
+}
+
+.second-section {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.second-section h3 {
+    text-align: center;
+}
+
+.second-section h5 {
+    font-weight: normal;
+    color: gray;
+}
+
+.second-section h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: gray;
+}
+
+.r2-col-1 {
+    float: left;
+    width: 30%;
+    padding-right: 0px;
+    margin-left: 10%;
+}
+
+.r2-col-1 h4 {
+    color: black;
+}
+
+.r2-col-2 h4 {
+    color: black;
+}
+
+.r2-col-3 h4 {
+    color: black;
+}
+
+.r2-col-2 {
+    float: left;
+    width: 30%;
+    padding-right: 0px;
+}
+
+.r2-col-3 {
+    float: left;
+    width: 30%;
+    padding-right: 0px;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+    font-family: 'Lato', sans-serif;
+    height: 30%;
+}
+
+.r3-col-1 {
+    width: 50%;
+    float: left;
+}
+
+.r3-col-2 {
+    width: 40%;
+    float: right;
+    margin-top: 80px;
+}
+
+.r3-col-2 h5 {
+    color: gray;
+    font-weight: normal;
+}
+
+.fa-box {
+    width: 5%;
+    float: left;
+}
+/* 
+.beside-icon {
+    width: 95%;
+    float: left;
+} */
+
+.vl2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 2%;
+    border-left: 1px solid #bfbfbf;
+    height: 50px;
+  }
+
+.vl2-aside {
+    float: left;
+    width: 90%;
+}
+
+.image-circ {
+    float: left;
+    width: 15%;
+    border-radius: 50%; 
+    width: 80px; 
+    height: 78px; 
+    margin-right: 10px;
+}
+
+.image-name {
+    float: left;
+    width: 80%;
+    font-weight: bolder;
+}
+
+.image-name h5 {
+    color: black;
+}
+
+.overlay-1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #bfbfbf;
+}
+
+.overlay-main {
+    background-color: white;
+    margin-left: 200px;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #bfbfbf;
+}
+
+.overlay-2 {
+    margin-top: 250px;
+    margin-left: 200px;
+    float: right;
+    width: 20%;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #bfbfbf;
+}
+
+#main-content h6 {
+    color: gray;
+    font-weight: normal;
+}
+
+.free-trial-btn {
+    color: white; 
+    background-color: rgb(38, 62, 196); 
+    padding-left: 10px; 
+    padding-right: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border: none;
+    border-radius: 3px;
+    box-shadow: 6px 3px #8795DD;
+}
